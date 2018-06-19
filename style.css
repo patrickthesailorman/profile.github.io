@@ -21,7 +21,8 @@ html, body {
 }
 .carousel-caption {
   position: absolute;
-  top: 30%;
+  top: 35%;
+  right: 85%;
   transform: translateY(-50%);
 }
 .carousel-caption h1 {
@@ -106,6 +107,18 @@ html, body {
 .fa-google-plus-g:hover,
 .fa-github:hover {
   color: #d5d5d5;
+}
+.devicon {
+ /*background-color: #8ce7cc;*/
+ opacity: .7;
+}
+.devicon-atom-original,
+.devicon-javascript-plain,
+.devicon-jquery-plain,
+.devicon-ruby-plain,
+.devicon-rails-plain {
+  font-size: 4.5em;
+  padding: 3rem;
 }
 footer {
   background-color: #3f3f3f;
