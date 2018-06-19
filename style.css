@@ -105,6 +105,9 @@ html, body {
   font-size: 4.5em;
   padding: 1rem;
 }
+.GA {
+  height: auto;
+}
 .fa-envelope:hover,
 .fa-twitter:hover,
 .fa-linkedin:hover,
@@ -124,7 +127,12 @@ html, body {
 .devicon-angularjs-plain,
 .devicon-react-original,
 .devicon-nodejs-plain,
-.devicon-sass-original {
+.devicon-sass-original,
+.devicon-github-plain,
+.devicon-heroku-original,
+.devicon-mongodb-plain,
+.devicon-mysql-plain,
+.devicon-postgresql-plain {
   font-size: 4.5em;
   padding: 3rem;
 }
