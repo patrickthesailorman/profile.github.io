@@ -101,6 +101,10 @@ html, body {
 .fa-github {
   color: #000;
 }
+.fa-stack {
+  font-size: 4.5em;
+  padding: 1rem;
+}
 .fa-envelope:hover,
 .fa-twitter:hover,
 .fa-linkedin:hover,
@@ -116,7 +120,11 @@ html, body {
 .devicon-javascript-plain,
 .devicon-jquery-plain,
 .devicon-ruby-plain,
-.devicon-rails-plain {
+.devicon-rails-plain,
+.devicon-angularjs-plain,
+.devicon-react-original,
+.devicon-nodejs-plain,
+.devicon-sass-original {
   font-size: 4.5em;
   padding: 3rem;
 }
