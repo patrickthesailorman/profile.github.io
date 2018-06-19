@@ -101,10 +101,10 @@ html, body {
 .fa-github {
   color: #000;
 }
-.fa-stack {
-  font-size: 4.5em;
-  padding: 1rem;
-}
+/*.fa-stack-overflow {*/
+/*  font-size: 4.5em;*/
+/*  padding: 1rem;*/
+/*}*/
 .GA {
   height: auto;
 }
@@ -117,22 +117,25 @@ html, body {
 }
 .devicon {
  /*background-color: #8ce7cc;*/
- opacity: .7;
+ /*opacity: .7;*/
 }
 .devicon-atom-original,
 .devicon-javascript-plain,
 .devicon-jquery-plain,
 .devicon-ruby-plain,
 .devicon-rails-plain,
+.devicon-express-original,
 .devicon-angularjs-plain,
 .devicon-react-original,
 .devicon-nodejs-plain,
 .devicon-sass-original,
 .devicon-github-plain,
 .devicon-heroku-original,
+.devicon-confluence-plain,
 .devicon-mongodb-plain,
 .devicon-mysql-plain,
-.devicon-postgresql-plain {
+.devicon-postgresql-plain,
+.devicon-visualstudio-plain {
   font-size: 4.5em;
   padding: 3rem;
 }
