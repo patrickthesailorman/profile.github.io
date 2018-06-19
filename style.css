@@ -135,7 +135,11 @@ html, body {
 .devicon-mongodb-plain,
 .devicon-mysql-plain,
 .devicon-postgresql-plain,
-.devicon-visualstudio-plain {
+.devicon-visualstudio-plain,
+.devicon-c-plain,
+.devicon-csharp-plain,
+.devicon-mocha-plain,
+.devicon-jasmine-plain {
   font-size: 4.5em;
   padding: 3rem;
 }
