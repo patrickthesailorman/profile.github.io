@@ -22,19 +22,21 @@ html, body {
 .carousel-caption {
   position: absolute;
   top: 35%;
-  right: 85%;
+  right: 60%;
   transform: translateY(-50%);
 }
 .carousel-caption h1 {
-  font-size: 500%;
+  font-size: 400%;
   text-transform: uppercase;
   text-shadow: 1px 1px 15px #000;
+  color: #c1e2ee;
 }
 .carousel-caption h3 {
   font-size: 200%;
   font-weight: 500;
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
+  color: #97b9e0;
 }
 .btn-primary {
   background-color: #6648b1;
@@ -43,6 +45,9 @@ html, body {
 .btn-primary:hover {
   background-color: #563d7c;
   border: 1px solid #563d7c;
+}
+.btn-outline-light {
+  background-color: transparent;
 }
 .jumbotron {
   padding: 1rem;
@@ -140,8 +145,19 @@ html, body {
 .devicon-csharp-plain,
 .devicon-mocha-plain,
 .devicon-jasmine-plain {
-  font-size: 4.5em;
-  padding: 3rem;
+  font-size: 4em;
+  padding: 2rem;
+}
+.fa-stack-overflow,
+.fa-free-code-camp,
+.fa-apple,
+.fa-database {
+  padding-bottom: .4em;
+  text-align: justify;
+}
+#fa1 {
+  
+  margin-top: -.9rem;
 }
 footer {
   background-color: #3f3f3f;
@@ -204,12 +220,13 @@ hr.light-100 {
   .carousel-caption {
     /*position: absolute;*/
     top: 27%;
+    right: 70%;
   }
   .carousel-caption h1 {
-    font-size: 250%;
+    font-size: 100%;
   }
   .carousel-caption h3 {
-    font-size: 110%;
+    font-size: 75%;
   }
   .carousel-caption .btn {
     font-size: 90%;
@@ -222,8 +239,43 @@ hr.light-100 {
     font-size: 160%;
   }
   .social a {
+    font-size: 1em;
+    padding: .4rem;
+  }
+  .devicon-atom-original,
+  .devicon-javascript-plain,
+  .devicon-jquery-plain,
+  .devicon-ruby-plain,
+  .devicon-rails-plain,
+  .devicon-express-original,
+  .devicon-angularjs-plain,
+  .devicon-react-original,
+  .devicon-nodejs-plain,
+  .devicon-sass-original,
+  .devicon-github-plain,
+  .devicon-heroku-original,
+  .devicon-confluence-plain,
+  .devicon-mongodb-plain,
+  .devicon-mysql-plain,
+  .devicon-postgresql-plain,
+  .devicon-visualstudio-plain,
+  .devicon-c-plain,
+  .devicon-csharp-plain,
+  .devicon-mocha-plain,
+  .devicon-jasmine-plain {
     font-size: 2em;
-    padding: .7rem;
+    padding: .3rem;
+  }
+  h6 {
+    display: none;
+  }
+  .fa-stack-overflow,
+  .fa-free-code-camp,
+  .fa-apple,
+  .fa-database {
+    font-size: 2.4em;
+    padding: .3rem;
+    height: auto;
   }
 }
 
